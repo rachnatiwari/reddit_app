@@ -6,11 +6,13 @@ function User_card(props) {
     <div id="user_card">
         <a href={ "https://www.reddit.com/"+props.link}>
             <img src={props.image} />
+            <div className="title">{props.name}</div>
         </a>
-        <span id="description"> <div>{props.name}</div>{props.desc}</span>
-        {/* <div id="card-footer"> <a href={props.link}>About me...</a> </div> */}
+        <div>{props.desc}</div>
     </div>
   );
 }
 
 export default User_card;
+
+//styles.reddit

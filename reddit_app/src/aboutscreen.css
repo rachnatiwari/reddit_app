@@ -1,27 +1,53 @@
+.trending_subred{
+    background-color: #dfdfdf !important;
+    padding: 2%;
+    margin:0;
+    text-align: center;
+}
+
 ul{
     background-color: #bfd8d5;
+    margin: 0;
+    padding: 0;
 }
 
 #user_card{
     max-width: 70%;
     margin-left: 15%;
-    padding: 2%;
+    padding: 1%;
     text-align: center;
 }
 
-#user_card img{
+img{
     max-width: 5%;
     max-width: 5%;
 }
-
-/* #description{
-    float: right;
-} */
 
 .topic{
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
     font-size: 250%;
-    padding: 5%;
+    padding: 3%;
+}
+
+.trending_subred li{
+    padding: 1%;
+    margin-left: 15%;
+    max-width: 70%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 130%;
+    padding: 0.3%;
+    text-decoration: underline;
+}
+
+.profile_photo{
+    max-width: 50%;
+    max-width: 50%;
+    border-radius: 50%;
+    margin-left: 42%;
+    margin-top: 3%;
 }
