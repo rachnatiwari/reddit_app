@@ -1,0 +1,27 @@
+ul{
+    background-color: #bfd8d5;
+}
+
+#user_card{
+    max-width: 70%;
+    margin-left: 15%;
+    padding: 2%;
+    text-align: center;
+}
+
+#user_card img{
+    max-width: 5%;
+    max-width: 5%;
+}
+
+/* #description{
+    float: right;
+} */
+
+.topic{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 250%;
+    padding: 5%;
+}

@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0%;
+  /* background-color: rgba(154, 217, 219 , 0.5); */
+}
+/* body a{
+  color:;
+} */
+
+ul li{
+  list-style-type: none;
+}
+
+#area{
+  /* border-bottom: 0.1rem rgba(70, 69, 69, 0.945) solid; */
+  margin: 2rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.area-title{
+  font-size: x-large;
+  text-align: center;
+  padding: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
