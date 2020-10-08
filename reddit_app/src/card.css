@@ -1,25 +1,8 @@
-#card{
-    position: relative;
-    border-left: 0.05rem rgba(128, 128, 128,0.1) solid;
-    box-shadow: 3px 4px 0px 0px rgba(128, 128, 128,0.1);
-    width: 18%;
-    height: 20em;
-    border-radius: 5%;
-    float: left;
-    margin: 1.2%;
-    background-color: rgba(154, 217, 219 , 0.5);
-    color: black;
-    padding: 2%;
-  }
-  
+
   #card a{
     color: rgba(179, 7, 7, 1);
   }
   
-  #card:hover{
-    box-shadow: 5px 5px 2px 2px rgba(179, 7, 7, 0.8);
-  
-  }
   
   #card img{
     display: block;
@@ -42,10 +25,38 @@
     padding: 0.8rem;
   }
   
-  #card-footer{
+  /* #card-footer{
     max-width: 100%;
     position: absolute;
     right: 4%;
     bottom: 4%;
+  } */
+
+  .posts_img{
+    max-width: 30%;
+    max-height: 30%;
+    padding-left: 30%;
+    padding-right: 35%;
+  }
+
+  .card-footer{
+    text-decoration: underline;
+    /* position: absolute; */
+    text-align: center;
   }
   
+  .post_card{
+    font-size: 150%;
+    display: inline;
+    /* padding-left: 15%; */
+    text-align: center;
+  }
+
+  .posts_title{
+    font-weight: bold;
+    padding: 1%;
+  }
+
+  .posts_content{
+    display: inline-flex;
+  }

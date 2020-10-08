@@ -21,7 +21,7 @@ function Display_subreddit(props) {
     <div>
         {(details.icon_img==""|| details.icon_img==null)?
             <div>
-                <a href={ "https://www.reddit.com/"+props.name}>
+                <a href={ "https://www.reddit.com/r/"+props.name}>
                     <img src={"https://image.flaticon.com/icons/png/512/52/52191.png"} />
                     <div className="title"> {props.name} </div>
                 </a>
@@ -29,7 +29,7 @@ function Display_subreddit(props) {
             </div>
             :
             <div>
-                <a href={ "https://www.reddit.com/"+props.name}>
+                <a href={ "https://www.reddit.com/r/"+props.name}>
                     <img src={details.icon_img} />
                     <div className="title"> {props.name} </div>
                 </a>

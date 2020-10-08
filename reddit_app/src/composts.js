@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './index.css';
+import './composts.css';
 import Card from './Card';
 import Nav from './nav';
 import { Link } from 'react-router-dom';
@@ -9,10 +9,10 @@ function Subreddit(props) {
     const [error, setErrors] = useState(null);
 
     async function fetchData() {
-      const res = await fetch("/sample");
+      const res = await fetch("https://www.reddit.com/"+props.category+".json");
       res
         .json()
-        .then(res => setPosts(res))
+        .then(res => setPosts(res.data.children))
         .catch(err => setErrors(err));
     }
 
@@ -43,17 +43,30 @@ function Subreddit(props) {
       document.querySelector("#"+props.category).classList.add("navbar-select");
     });
 
+    {var classNumber = 1;}
+
   return (
     <div>
       <Nav />
-    { <ul>
+      {/* <nav className="sub-navbar">
+        <span className="area-title" id ="subreddit" onClick={select_subreddit}><Link to="/subreddit" >Subreddit</Link></span>
+      </nav> */}
+    { <ul className="posts_page">
         {posts.map((item) => (
           <li key={item._id}>
             <Card 
-                name={item.name}
-                image={item.image}
-                link={item.link}
-                desc={item.desc}
+                title={item.data.title}
+                author={item.data.author}
+                upvotes={item.data.ups}
+                downvotes={item.data.downs}
+                reports={item.data.num_reports}
+                comments={item.data.num_comments}
+                link={item.data.url}
+                image={item.data.thumbnail}
+                subreddit_topic={item.data.subreddit}
+                subreddit_link={item.data.subreddit_name_prefixed}
+                actual_link={item.data.permalink}
+                desc={item.data.self_text}
             />
           </li>
         ))}

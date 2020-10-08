@@ -5,26 +5,26 @@
     border-radius: 50%;
 }
 
-.navbar{
+  .navbar{
     /* background-color: rgba(154, 217, 219 , 0.5); */
     margin: 0;
-    padding: 0;
+    padding: 1.5%;
     height: 3rem;
   }
   
-  .sub-navbar{
+  .navbar{
     text-align: center;
-    padding-bottom: 0.1rem;
-    margin-bottom: 8rem;
-    margin-top: 2rem;
+    padding-bottom: 1%;
+    margin-bottom: 4%;
+    margin-top: 1%;
   }
   
-  .sub-navbar span:hover{
-    border-bottom: 0.1rem lightgrey solid;
+  .navbar span:hover{
+    border-bottom: 0.3rem lightgrey solid;
     cursor: pointer;
   }
   
-  .sub-navbar-select{
-    border-bottom: 0.1rem rgb(74, 211, 192) solid;
+  .navbar-select{
+    border-bottom: 0.3rem rgba(231, 203, 169, 1.0) solid;
   }
 
