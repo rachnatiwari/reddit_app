@@ -35,21 +35,25 @@
   .posts_img{
     max-width: 30%;
     max-height: 30%;
-    padding-left: 30%;
+    padding-left: 28%;
     padding-right: 35%;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
   .card-footer{
-    text-decoration: underline;
-    /* position: absolute; */
-    text-align: center;
+    text-align: left;
+    color: gray;
+    font-size: 80%;
+    padding-left: 10%;
   }
   
   .post_card{
-    font-size: 150%;
+    font-size: 120%;
     display: inline;
     /* padding-left: 15%; */
     text-align: center;
+    padding: 3%;
   }
 
   .posts_title{
@@ -59,4 +63,44 @@
 
   .posts_content{
     display: inline-flex;
+    padding-left: 4%;
+    text-align: left;
+  }
+
+  .posts_content div{
+    padding-top: 10%;
+  }
+
+  .posts_header{
+    text-align: left !important ;
+    font-size: 130%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+  }
+
+  .author_name{
+    color: gray;
+    font-size: 70%;
+  }
+
+  .posts_desc{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .subreddit_link{
+    float: right;
+    padding-right: 5%;
+  }
+
+  .subreddit_link a{
+    color: blue;
+    font-weight: bold;
+  }
+
+  .votes{
+    max-width: 100%;
+    max-height: 100%;
   }

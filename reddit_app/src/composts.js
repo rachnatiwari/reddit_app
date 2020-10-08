@@ -66,7 +66,10 @@ function Subreddit(props) {
                 subreddit_topic={item.data.subreddit}
                 subreddit_link={item.data.subreddit_name_prefixed}
                 actual_link={item.data.permalink}
-                desc={item.data.self_text}
+                desc={item.data.selftext}
+                // {item.data.hasOwnProperty(cross_parent_list )}
+                isvideo={item.data.isvideo}
+                video_link={item.data.isvideo==true?item.data.media.reddit_video.fallback_url:null}
             />
           </li>
         ))}
