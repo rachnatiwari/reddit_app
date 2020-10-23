@@ -13,7 +13,7 @@
     box-shadow: 3px 4px 0px 0px rgba(128, 128, 128,0.1);
     width: 80%;
     height: 50%;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 3%;
@@ -22,12 +22,13 @@
 
 
 .posts_page li:nth-child(even){
-    background-color:rgba(238, 186, 178, 0.7);
+    background-color: rgba(204, 212, 191, 0.7);
+    /* background-color:rgba(238, 186, 178, 0.7); */
     border-left: 0.05rem rgba(128, 128, 128,0.1) solid;
     box-shadow: 3px 4px 0px 0px rgba(128, 128, 128,0.1);
     width: 80%;
     height: 50%;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 3%;
